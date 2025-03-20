@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <iomanip>
+#include <limits>
 
 using namespace std;
 
@@ -9,31 +10,29 @@ void writeBalanceToFile(double balance);
 void checkBalance(double balance);
 void deposit(double &balance);
 void withdraw(double &balance);
+int getValidMenuChoice();
 
 int main() {
-    double balance;
-
-    balance = readBalanceFromFile();
+    double balance = readBalanceFromFile();
 
     cout << "Welcome to Your Bank Account!" << endl;
     if (balance == 100.00) {
-    cout << "Initializing account with $100.00..." << endl;
+        cout << "Initializing account with $100.00..." << endl;
     } else {
         cout << "Your current balance is: $" << fixed << setprecision(2) << balance << endl;
     }
 
     while (true) {
-        cout << "\nMenu:" << endl;
-        cout << "1. Check Balance" << endl;
-        cout << "2. Deposit Money" << endl;
-        cout << "3. Withdraw Money" << endl;
-        cout << "4. Exit" << endl;
+        cout << "\nMenu:\n";
+        cout << "1. Check Balance\n";
+        cout << "2. Deposit Money\n";
+        cout << "3. Withdraw Money\n";
+        cout << "4. Exit\n";
         cout << "Enter your choice: ";
 
-        int choice;
-        cin >> choice;
+        int choice = getValidMenuChoice();
 
-                switch (choice) {
+        switch (choice) {
             case 1:
                 checkBalance(balance);
                 break;
@@ -44,14 +43,14 @@ int main() {
                 withdraw(balance);
                 break;
             case 4:
-                cout << "Exiting... Thank you for using our service." << endl;
+                cout << "Exiting... Thank you for using our service.\n";
                 return 0;
             default:
-                cout << "Invalid option. Please try again." << endl;
+                cout << "Invalid option. Please try again.\n";
+        }
     }
-}
 
-return 0;
+    return 0;
 }
 
 double readBalanceFromFile() {
@@ -63,6 +62,7 @@ double readBalanceFromFile() {
 
     double balance;
     file >> balance;
+    file.close();
 
     if (!file || balance < 0) {
         return 100.00;
@@ -73,13 +73,14 @@ double readBalanceFromFile() {
 
 void writeBalanceToFile(double balance) {
     ofstream file("account_balance.txt");
-    
+
     if (!file) {
-        cerr << "Error: Unable to open file to save the balance." << endl;
+        cerr << "Error: Unable to open file to save the balance.\n";
         exit(1);
     }
 
     file << fixed << setprecision(2) << balance;
+    file.close();
 }
 
 void checkBalance(double balance) {
@@ -89,11 +90,11 @@ void checkBalance(double balance) {
 void deposit(double &balance) {
     double amount;
     cout << "Enter deposit amount: ";
-    cin >> amount;
 
-    if (amount <= 0) {
-        cout << "Error: Deposit amount must be positive." << endl;
-        return;
+    while (!(cin >> amount) || amount <= 0) {
+        cout << "Error: Deposit amount must be a positive number. Try again: ";
+        cin.clear();
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
     }
 
     balance += amount;
@@ -104,11 +105,11 @@ void deposit(double &balance) {
 void withdraw(double &balance) {
     double amount;
     cout << "Enter withdrawal amount: ";
-    cin >> amount;
 
-    if (amount <= 0) {
-        cout << "Error: Withdrawal amount must be positive." << endl;
-        return;
+    while (!(cin >> amount) || amount <= 0) {
+        cout << "Error: Withdrawal amount must be a positive number. Try again: ";
+        cin.clear();
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
     }
 
     if (amount > balance) {
@@ -119,4 +120,19 @@ void withdraw(double &balance) {
     balance -= amount;
     writeBalanceToFile(balance);
     cout << "Withdrawal successful. Your new balance is: $" << fixed << setprecision(2) << balance << endl;
+}
+
+int getValidMenuChoice() {
+    int choice;
+    while (true) {
+        cin >> choice;
+        if (cin.fail() || choice < 1 || choice > 4) {
+            cout << "Invalid input. Please enter a number between 1 and 4: ";
+            cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+        } else {
+            break;
+        }
+    }
+    return choice;
 }
