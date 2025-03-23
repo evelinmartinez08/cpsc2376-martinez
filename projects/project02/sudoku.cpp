@@ -1,6 +1,7 @@
 #include "sudoku.h"
 
 Sudoku::Sudoku() : movesLeft(81) {
+    // starts the board with empty cells
     for (int i = 0; i < 9; ++i) {
         for (int j = 0; j < 9; ++j) {
             board[i][j] = 0;
@@ -37,16 +38,19 @@ void Sudoku::display() const {
 }
 
 bool Sudoku::isValidMove(int row, int col, int value) const {
+    // checks if the value exists in the row
     for (int i = 0; i < 9; ++i) {
         if (board[row][i] == value) {
             return false;
         }
     }
+    // checks if the value already exists in the column
     for (int i = 0; i < 9; ++i) {
         if (board[i][col] == value) {
             return false;
         }
     }
+    // checks if the value exists in the 3x3 subgrid
     int startRow = (row / 3) * 3;
     int startCol = (col / 3) * 3;
     for (int i = startRow; i < startRow + 3; ++i) {
@@ -60,6 +64,7 @@ bool Sudoku::isValidMove(int row, int col, int value) const {
 }
 
 bool Sudoku::checkSolved() const {
+    // checks if the board is fully filled and valid
     for (int i = 0; i < 9; ++i) {
         for (int j = 0; j < 9; ++j) {
             if (board[i][j] == 0 || !isValidMove(i, j, board[i][j])) {
