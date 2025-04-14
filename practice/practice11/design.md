@@ -59,35 +59,4 @@ private:
     std::string dueDate;
 };
 
-```mermaid
-classDiagram
-    class Game {
-        - string title
-        - int totalCopies
-        - int availableCopies
-        + Game(string, int)
-        + string getTitle()
-        + int getAvailableCopies()
-        + void checkoutCopy()
-        + void returnCopy()
-    }
-
-    class Customer {
-        - string name
-        + Customer(string)
-        + string getName()
-    }
-
-    class Loan {
-        - Customer* customer
-        - Game* game
-        - string dueDate
-        + Loan(Customer*, Game*, string)
-        + Customer* getCustomer()
-        + Game* getGame()
-        + string getDueDate()
-    }
-
-    Customer "1" --> "*" Loan : borrows
-    Game "1" --> "*" Loan : is loaned in
-```
+<pre> ```mermaid classDiagram class Game { - string title - int totalCopies - int availableCopies + Game(string, int) + string getTitle() + int getAvailableCopies() + void checkoutCopy() + void returnCopy() } class Customer { - string name + Customer(string) + string getName() } class Loan { - Customer* customer - Game* game - string dueDate + Loan(Customer*, Game*, string) + Customer* getCustomer() + Game* getGame() + string getDueDate() } Customer "1" --> "*" Loan : borrows Game "1" --> "*" Loan : is loaned in ``` </pre>
