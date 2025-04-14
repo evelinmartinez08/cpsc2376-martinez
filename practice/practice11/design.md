@@ -59,7 +59,7 @@ private:
     std::string dueDate;
 };
 
-```mermaid
+```mermaid 
 classDiagram
     class Game {
         - string title
