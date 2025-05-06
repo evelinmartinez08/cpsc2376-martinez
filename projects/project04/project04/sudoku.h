@@ -4,11 +4,6 @@
 #include <vector>
 #include <SDL2/SDL.h>
 
-const int GRID_SIZE = 9;
-const int CELL_SIZE = 60;
-inline const SDL_Color FIXED_COLOR = { 0, 0, 0, 255 };
-inline const SDL_Color USER_COLOR = { 0, 0, 255, 255 };
-
 enum class CellState { EMPTY, FIXED, USER };
 enum class GameStatus { ONGOING, WIN };
 
@@ -30,7 +25,6 @@ private:
     bool isValidMove(int row, int col, int value) const;
     bool isBoardFull() const;
     void drawGrid(SDL_Renderer* renderer) const;
-    void drawNumbers(SDL_Renderer* renderer) const;
 };
 
 #endif

@@ -5,18 +5,11 @@ const int WINDOW_WIDTH = 540;
 const int WINDOW_HEIGHT = 540;
 const int CELL_SIZE = 60;
 
-int main(int argc, char* argv[]) {
+int wmain(int argc, wchar_t* argv[]) {
     SDL_Init(SDL_INIT_VIDEO);
 
-    SDL_Window* window = SDL_CreateWindow(
-        "Sudoku",
-        SDL_WINDOWPOS_CENTERED,
-        SDL_WINDOWPOS_CENTERED,
-        WINDOW_WIDTH,
-        WINDOW_HEIGHT,
-        SDL_WINDOW_SHOWN
-    );
-
+    SDL_Window* window = SDL_CreateWindow("Sudoku", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
+        WINDOW_WIDTH, WINDOW_HEIGHT, SDL_WINDOW_SHOWN);
     SDL_Renderer* renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
 
     Sudoku game;
@@ -36,16 +29,16 @@ int main(int argc, char* argv[]) {
                 else if (selectedRow != -1 && selectedCol != -1) {
                     int value = 0;
                     switch (e.key.keysym.sym) {
-                        case SDLK_1: value = 1; break;
-                        case SDLK_2: value = 2; break;
-                        case SDLK_3: value = 3; break;
-                        case SDLK_4: value = 4; break;
-                        case SDLK_5: value = 5; break;
-                        case SDLK_6: value = 6; break;
-                        case SDLK_7: value = 7; break;
-                        case SDLK_8: value = 8; break;
-                        case SDLK_9: value = 9; break;
-                        default: break;
+                    case SDLK_1: value = 1; break;
+                    case SDLK_2: value = 2; break;
+                    case SDLK_3: value = 3; break;
+                    case SDLK_4: value = 4; break;
+                    case SDLK_5: value = 5; break;
+                    case SDLK_6: value = 6; break;
+                    case SDLK_7: value = 7; break;
+                    case SDLK_8: value = 8; break;
+                    case SDLK_9: value = 9; break;
+                    default: break;
                     }
                     if (value != 0)
                         game.play(selectedRow, selectedCol, value);
@@ -73,6 +66,5 @@ int main(int argc, char* argv[]) {
     SDL_DestroyRenderer(renderer);
     SDL_DestroyWindow(window);
     SDL_Quit();
-
     return 0;
 }
