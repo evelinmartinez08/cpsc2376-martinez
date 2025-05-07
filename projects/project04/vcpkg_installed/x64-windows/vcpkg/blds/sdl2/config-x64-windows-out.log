@@ -1,0 +1,919 @@
+[1/2] "C:/Users/musta/AppData/Local/vcpkg/downloads/tools/cmake-3.30.1-windows/cmake-3.30.1-windows-i386/bin/cmake.exe" -E chdir ".." "C:/Users/musta/AppData/Local/vcpkg/downloads/tools/cmake-3.30.1-windows/cmake-3.30.1-windows-i386/bin/cmake.exe" "C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/src/se-2.30.10-24d142036b.clean" "-G" "Ninja" "-DCMAKE_BUILD_TYPE=Release" "-DCMAKE_INSTALL_PREFIX=C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/pkgs/sdl2_x64-windows" "-DFETCHCONTENT_FULLY_DISCONNECTED=ON" "-DSDL_ALSA=OFF" "-DSDL_DBUS=OFF" "-DSDL_IBUS=OFF" "-DSDL_LIBSAMPLERATE=OFF" "-DSDL_VULKAN=OFF" "-DSDL_WAYLAND=OFF" "-DSDL_X11=OFF" "-DSDL_STATIC=0" "-DSDL_SHARED=1" "-DSDL_FORCE_STATIC_VCRT=0" "-DSDL_LIBC=ON" "-DSDL_TEST=OFF" "-DSDL_INSTALL_CMAKEDIR=cmake" "-DCMAKE_DISABLE_FIND_PACKAGE_Git=ON" "-DSDL_LIBSAMPLERATE_SHARED=OFF" "-DCMAKE_MAKE_PROGRAM=C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "-DBUILD_SHARED_LIBS=ON" "-DVCPKG_CHAINLOAD_TOOLCHAIN_FILE=C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake" "-DVCPKG_TARGET_TRIPLET=x64-windows" "-DVCPKG_SET_CHARSET_FLAG=ON" "-DVCPKG_PLATFORM_TOOLSET=v143" "-DCMAKE_EXPORT_NO_PACKAGE_REGISTRY=ON" "-DCMAKE_FIND_PACKAGE_NO_PACKAGE_REGISTRY=ON" "-DCMAKE_FIND_PACKAGE_NO_SYSTEM_PACKAGE_REGISTRY=ON" "-DCMAKE_INSTALL_SYSTEM_RUNTIME_LIBS_SKIP=TRUE" "-DCMAKE_VERBOSE_MAKEFILE=ON" "-DVCPKG_APPLOCAL_DEPS=OFF" "-DCMAKE_TOOLCHAIN_FILE=C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/buildsystems/vcpkg.cmake" "-DCMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION=ON" "-DVCPKG_CXX_FLAGS=" "-DVCPKG_CXX_FLAGS_RELEASE=" "-DVCPKG_CXX_FLAGS_DEBUG=" "-DVCPKG_C_FLAGS=" "-DVCPKG_C_FLAGS_RELEASE=" "-DVCPKG_C_FLAGS_DEBUG=" "-DVCPKG_CRT_LINKAGE=dynamic" "-DVCPKG_LINKER_FLAGS=" "-DVCPKG_LINKER_FLAGS_RELEASE=" "-DVCPKG_LINKER_FLAGS_DEBUG=" "-DVCPKG_TARGET_ARCHITECTURE=x64" "-DCMAKE_INSTALL_LIBDIR:STRING=lib" "-DCMAKE_INSTALL_BINDIR:STRING=bin" "-D_VCPKG_ROOT_DIR=C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/" "-D_VCPKG_INSTALLED_DIR=C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/" "-DVCPKG_MANIFEST_INSTALL=OFF"
+-- The C compiler identification is MSVC 19.43.34808.0
+-- The CXX compiler identification is MSVC 19.43.34808.0
+-- Detecting C compiler ABI info
+CMake Warning in C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-5pdlgd/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-5pdlgd/CMakeFiles/cmTC_b2984.dir/./
+
+  has 231 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CMakeCCompilerABI.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+CMake Warning in C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-sptk02/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-sptk02/CMakeFiles/cmTC_2c50e.dir/./
+
+  has 231 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CMakeCXXCompilerABI.cpp.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Could NOT find PkgConfig (missing: PKG_CONFIG_EXECUTABLE) 
+-- Looking for __GLIBC__
+CMake Warning in C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-n6c90k/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-n6c90k/CMakeFiles/cmTC_18e47.dir/./
+
+  has 231 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CheckSymbolExists.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Looking for __GLIBC__ - not found
+-- Performing Test CHECK_CPU_ARCHITECTURE_X86
+-- Performing Test CHECK_CPU_ARCHITECTURE_X86 - Failed
+-- Performing Test CHECK_CPU_ARCHITECTURE_X64
+-- Performing Test CHECK_CPU_ARCHITECTURE_X64 - Success
+-- Performing Test CHECK_CPU_ARCHITECTURE_ARM32
+-- Performing Test CHECK_CPU_ARCHITECTURE_ARM32 - Failed
+-- Performing Test CHECK_CPU_ARCHITECTURE_ARM64
+-- Performing Test CHECK_CPU_ARCHITECTURE_ARM64 - Failed
+-- Performing Test CHECK_CPU_ARCHITECTURE_LOONGARCH64
+-- Performing Test CHECK_CPU_ARCHITECTURE_LOONGARCH64 - Failed
+-- Looking for immintrin.h
+CMake Warning in C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-ixb15l/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-ixb15l/CMakeFiles/cmTC_283c0.dir/./
+
+  has 231 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CheckIncludeFile.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Looking for immintrin.h - found
+-- Looking for stdint.h
+CMake Warning in C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-vu3hh2/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-vu3hh2/CMakeFiles/cmTC_8fced.dir/./
+
+  has 231 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CheckIncludeFile.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Looking for stdint.h - found
+-- Looking for M_PI
+CMake Warning in C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-k3jb6t/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-k3jb6t/CMakeFiles/cmTC_a3d43.dir/./
+
+  has 231 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CheckSymbolExists.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Looking for M_PI - not found
+-- Performing Test HAVE_WIN32_CC
+-- Performing Test HAVE_WIN32_CC - Success
+-- Looking for d3d9.h
+CMake Warning in C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-r464zh/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-r464zh/CMakeFiles/cmTC_94ad1.dir/./
+
+  has 231 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CheckIncludeFile.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Looking for d3d9.h - found
+-- Looking for d3d11_1.h
+CMake Warning in C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-m40oy9/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-m40oy9/CMakeFiles/cmTC_efe38.dir/./
+
+  has 231 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CheckIncludeFile.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Looking for d3d11_1.h - found
+-- Performing Test HAVE_D3D12_H
+-- Performing Test HAVE_D3D12_H - Success
+-- Looking for ddraw.h
+CMake Warning in C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-m3g1xe/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-m3g1xe/CMakeFiles/cmTC_943cd.dir/./
+
+  has 231 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CheckIncludeFile.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Looking for ddraw.h - found
+-- Looking for dsound.h
+CMake Warning in C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-jqmt4k/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-jqmt4k/CMakeFiles/cmTC_c44b7.dir/./
+
+  has 231 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CheckIncludeFile.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Looking for dsound.h - found
+-- Looking for dinput.h
+CMake Warning in C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-td1tf3/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-td1tf3/CMakeFiles/cmTC_b54b4.dir/./
+
+  has 231 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CheckIncludeFile.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Looking for dinput.h - found
+-- Looking for dxgi.h
+CMake Warning in C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-rni5dk/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-rni5dk/CMakeFiles/cmTC_e4416.dir/./
+
+  has 231 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CheckIncludeFile.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Looking for dxgi.h - found
+-- Performing Test HAVE_XINPUT_H
+-- Performing Test HAVE_XINPUT_H - Success
+-- Performing Test HAVE_WINDOWS_GAMING_INPUT_H
+-- Performing Test HAVE_WINDOWS_GAMING_INPUT_H - Success
+-- Looking for tpcshrd.h
+CMake Warning in C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-b1a0nv/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-b1a0nv/CMakeFiles/cmTC_3ced2.dir/./
+
+  has 231 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CheckIncludeFile.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Looking for tpcshrd.h - found
+-- Looking for roapi.h
+CMake Warning in C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-pwf0az/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-pwf0az/CMakeFiles/cmTC_f6de2.dir/./
+
+  has 231 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CheckIncludeFile.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Looking for roapi.h - found
+-- Looking for mmdeviceapi.h
+CMake Warning in C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-ujlcon/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-ujlcon/CMakeFiles/cmTC_65461.dir/./
+
+  has 231 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CheckIncludeFile.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Looking for mmdeviceapi.h - found
+-- Looking for audioclient.h
+CMake Warning in C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-51idax/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-51idax/CMakeFiles/cmTC_54d12.dir/./
+
+  has 231 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CheckIncludeFile.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Looking for audioclient.h - found
+-- Looking for sensorsapi.h
+CMake Warning in C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-9rxa5r/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-9rxa5r/CMakeFiles/cmTC_bb127.dir/./
+
+  has 231 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CheckIncludeFile.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Looking for sensorsapi.h - found
+-- Looking for shellscalingapi.h
+CMake Warning in C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-rcgm5p/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-rcgm5p/CMakeFiles/cmTC_44183.dir/./
+
+  has 231 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CheckIncludeFile.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Looking for shellscalingapi.h - found
+-- 
+-- SDL2 was configured with the following options:
+-- 
+-- Platform: Windows-10.0.22631
+-- 64-bit:   TRUE
+-- Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/cl.exe
+-- Revision: SDL-2.30.10-no-vcs
+-- 
+-- Subsystems:
+--   Atomic:	ON
+--   Audio:	ON
+--   Video:	ON
+--   Render:	ON
+--   Events:	ON
+--   Joystick:	ON
+--   Haptic:	ON
+--   Hidapi:	ON
+--   Power:	ON
+--   Threads:	ON
+--   Timers:	ON
+--   File:	ON
+--   Loadso:	ON
+--   CPUinfo:	ON
+--   Filesystem:	ON
+--   Sensor:	ON
+--   Locale:	ON
+--   Misc:	ON
+-- 
+-- Options:
+--   SDL2_DISABLE_INSTALL        (Wanted: OFF): OFF
+--   SDL2_DISABLE_SDL2MAIN       (Wanted: OFF): OFF
+--   SDL2_DISABLE_UNINSTALL      (Wanted: OFF): OFF
+--   SDL_3DNOW                   (Wanted: OFF): OFF
+--   SDL_ALSA                    (Wanted: OFF): OFF
+--   SDL_ALSA_SHARED             (Wanted: OFF): OFF
+--   SDL_ALTIVEC                 (Wanted: ON): OFF
+--   SDL_ARMNEON                 (Wanted: OFF): OFF
+--   SDL_ARMSIMD                 (Wanted: OFF): OFF
+--   SDL_ARTS                    (Wanted: OFF): OFF
+--   SDL_ARTS_SHARED             (Wanted: OFF): OFF
+--   SDL_ASAN                    (Wanted: OFF): OFF
+--   SDL_ASSEMBLY                (Wanted: ON): OFF
+--   SDL_ASSERTIONS              (Wanted: auto): auto
+--   SDL_BACKGROUNDING_SIGNAL    (Wanted: OFF): OFF
+--   SDL_CCACHE                  (Wanted: ON): OFF
+--   SDL_CLOCK_GETTIME           (Wanted: OFF): OFF
+--   SDL_COCOA                   (Wanted: OFF): OFF
+--   SDL_DBUS                    (Wanted: OFF): OFF
+--   SDL_DIRECTFB                (Wanted: OFF): OFF
+--   SDL_DIRECTFB_SHARED         (Wanted: OFF): OFF
+--   SDL_DIRECTX                 (Wanted: ON): ON
+--   SDL_DISKAUDIO               (Wanted: ON): ON
+--   SDL_DUMMYAUDIO              (Wanted: ON): ON
+--   SDL_DUMMYVIDEO              (Wanted: ON): ON
+--   SDL_ESD                     (Wanted: OFF): OFF
+--   SDL_ESD_SHARED              (Wanted: OFF): OFF
+--   SDL_FOREGROUNDING_SIGNAL    (Wanted: OFF): OFF
+--   SDL_FUSIONSOUND             (Wanted: OFF): OFF
+--   SDL_FUSIONSOUND_SHARED      (Wanted: OFF): OFF
+--   SDL_GCC_ATOMICS             (Wanted: OFF): OFF
+--   SDL_HIDAPI                  (Wanted: ON): ON
+--   SDL_HIDAPI_JOYSTICK         (Wanted: ON): ON
+--   SDL_HIDAPI_LIBUSB           (Wanted: OFF): OFF
+--   SDL_IBUS                    (Wanted: OFF): OFF
+--   SDL_INSTALL_TESTS           (Wanted: OFF): OFF
+--   SDL_JACK                    (Wanted: OFF): OFF
+--   SDL_JACK_SHARED             (Wanted: OFF): OFF
+--   SDL_KMSDRM                  (Wanted: OFF): OFF
+--   SDL_KMSDRM_SHARED           (Wanted: OFF): OFF
+--   SDL_LASX                    (Wanted: OFF): OFF
+--   SDL_LIBC                    (Wanted: ON): ON
+--   SDL_LIBICONV                (Wanted: OFF): OFF
+--   SDL_LIBSAMPLERATE           (Wanted: OFF): OFF
+--   SDL_LIBSAMPLERATE_SHARED    (Wanted: OFF): OFF
+--   SDL_LIBUDEV                 (Wanted: ON): OFF
+--   SDL_LSX                     (Wanted: OFF): OFF
+--   SDL_METAL                   (Wanted: OFF): OFF
+--   SDL_MMX                     (Wanted: ON): OFF
+--   SDL_NAS                     (Wanted: OFF): OFF
+--   SDL_NAS_SHARED              (Wanted: OFF): OFF
+--   SDL_OFFSCREEN               (Wanted: ON): ON
+--   SDL_OPENGL                  (Wanted: ON): ON
+--   SDL_OPENGLES                (Wanted: ON): ON
+--   SDL_OSS                     (Wanted: OFF): OFF
+--   SDL_PIPEWIRE                (Wanted: OFF): OFF
+--   SDL_PIPEWIRE_SHARED         (Wanted: OFF): OFF
+--   SDL_PTHREADS                (Wanted: OFF): OFF
+--   SDL_PTHREADS_SEM            (Wanted: OFF): OFF
+--   SDL_PULSEAUDIO              (Wanted: OFF): OFF
+--   SDL_PULSEAUDIO_SHARED       (Wanted: OFF): OFF
+--   SDL_RENDER_D3D              (Wanted: ON): ON
+--   SDL_RENDER_METAL            (Wanted: OFF): OFF
+--   SDL_RPATH                   (Wanted: OFF): OFF
+--   SDL_RPI                     (Wanted: OFF): OFF
+--   SDL_SNDIO                   (Wanted: OFF): OFF
+--   SDL_SNDIO_SHARED            (Wanted: OFF): OFF
+--   SDL_SSE                     (Wanted: ON): ON
+--   SDL_SSE2                    (Wanted: ON): ON
+--   SDL_SSE3                    (Wanted: ON): ON
+--   SDL_SSEMATH                 (Wanted: ON): OFF
+--   SDL_STATIC_PIC              (Wanted: OFF): OFF
+--   SDL_SYSTEM_ICONV            (Wanted: OFF): OFF
+--   SDL_TESTS                   (Wanted: OFF): OFF
+--   SDL_VENDOR_INFO             (Wanted: ): OFF
+--   SDL_VIRTUAL_JOYSTICK        (Wanted: ON): ON
+--   SDL_VIVANTE                 (Wanted: OFF): OFF
+--   SDL_VULKAN                  (Wanted: OFF): OFF
+--   SDL_WASAPI                  (Wanted: ON): ON
+--   SDL_WAYLAND                 (Wanted: OFF): OFF
+--   SDL_WAYLAND_LIBDECOR        (Wanted: OFF): OFF
+--   SDL_WAYLAND_LIBDECOR_SHARED (Wanted: OFF): OFF
+--   SDL_WAYLAND_QT_TOUCH        (Wanted: OFF): OFF
+--   SDL_WAYLAND_SHARED          (Wanted: OFF): OFF
+--   SDL_X11                     (Wanted: OFF): OFF
+--   SDL_X11_SHARED              (Wanted: OFF): OFF
+--   SDL_X11_XCURSOR             (Wanted: OFF): OFF
+--   SDL_X11_XDBE                (Wanted: OFF): OFF
+--   SDL_X11_XFIXES              (Wanted: OFF): OFF
+--   SDL_X11_XINPUT              (Wanted: OFF): OFF
+--   SDL_X11_XRANDR              (Wanted: OFF): OFF
+--   SDL_X11_XSCRNSAVER          (Wanted: OFF): OFF
+--   SDL_X11_XSHAPE              (Wanted: OFF): OFF
+--   SDL_XINPUT                  (Wanted: ON): ON
+-- 
+--  CFLAGS:         /nologo /DWIN32 /D_WINDOWS /utf-8 /MP 
+--  EXTRA_CFLAGS:  
+--  EXTRA_LDFLAGS:  
+--  EXTRA_LIBS:    kernel32;user32;gdi32;winmm;imm32;ole32;oleaut32;version;uuid;advapi32;setupapi;shell32;dinput8
+-- 
+--  Build Shared Library: 1
+--  Build Static Library: 0
+-- 
+-- Configuring done (38.6s)
+-- Generating done (0.7s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    FETCHCONTENT_FULLY_DISCONNECTED
+    _VCPKG_ROOT_DIR
+
+
+-- Build files have been written to: C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-rel
+[2/2] "C:/Users/musta/AppData/Local/vcpkg/downloads/tools/cmake-3.30.1-windows/cmake-3.30.1-windows-i386/bin/cmake.exe" -E chdir "../../x64-windows-dbg" "C:/Users/musta/AppData/Local/vcpkg/downloads/tools/cmake-3.30.1-windows/cmake-3.30.1-windows-i386/bin/cmake.exe" "C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/src/se-2.30.10-24d142036b.clean" "-G" "Ninja" "-DCMAKE_BUILD_TYPE=Debug" "-DCMAKE_INSTALL_PREFIX=C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/pkgs/sdl2_x64-windows/debug" "-DFETCHCONTENT_FULLY_DISCONNECTED=ON" "-DSDL_ALSA=OFF" "-DSDL_DBUS=OFF" "-DSDL_IBUS=OFF" "-DSDL_LIBSAMPLERATE=OFF" "-DSDL_VULKAN=OFF" "-DSDL_WAYLAND=OFF" "-DSDL_X11=OFF" "-DSDL_STATIC=0" "-DSDL_SHARED=1" "-DSDL_FORCE_STATIC_VCRT=0" "-DSDL_LIBC=ON" "-DSDL_TEST=OFF" "-DSDL_INSTALL_CMAKEDIR=cmake" "-DCMAKE_DISABLE_FIND_PACKAGE_Git=ON" "-DSDL_LIBSAMPLERATE_SHARED=OFF" "-DCMAKE_MAKE_PROGRAM=C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "-DBUILD_SHARED_LIBS=ON" "-DVCPKG_CHAINLOAD_TOOLCHAIN_FILE=C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake" "-DVCPKG_TARGET_TRIPLET=x64-windows" "-DVCPKG_SET_CHARSET_FLAG=ON" "-DVCPKG_PLATFORM_TOOLSET=v143" "-DCMAKE_EXPORT_NO_PACKAGE_REGISTRY=ON" "-DCMAKE_FIND_PACKAGE_NO_PACKAGE_REGISTRY=ON" "-DCMAKE_FIND_PACKAGE_NO_SYSTEM_PACKAGE_REGISTRY=ON" "-DCMAKE_INSTALL_SYSTEM_RUNTIME_LIBS_SKIP=TRUE" "-DCMAKE_VERBOSE_MAKEFILE=ON" "-DVCPKG_APPLOCAL_DEPS=OFF" "-DCMAKE_TOOLCHAIN_FILE=C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/buildsystems/vcpkg.cmake" "-DCMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION=ON" "-DVCPKG_CXX_FLAGS=" "-DVCPKG_CXX_FLAGS_RELEASE=" "-DVCPKG_CXX_FLAGS_DEBUG=" "-DVCPKG_C_FLAGS=" "-DVCPKG_C_FLAGS_RELEASE=" "-DVCPKG_C_FLAGS_DEBUG=" "-DVCPKG_CRT_LINKAGE=dynamic" "-DVCPKG_LINKER_FLAGS=" "-DVCPKG_LINKER_FLAGS_RELEASE=" "-DVCPKG_LINKER_FLAGS_DEBUG=" "-DVCPKG_TARGET_ARCHITECTURE=x64" "-DCMAKE_INSTALL_LIBDIR:STRING=lib" "-DCMAKE_INSTALL_BINDIR:STRING=bin" "-D_VCPKG_ROOT_DIR=C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/" "-D_VCPKG_INSTALLED_DIR=C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/" "-DVCPKG_MANIFEST_INSTALL=OFF"
+-- The C compiler identification is MSVC 19.43.34808.0
+-- The CXX compiler identification is MSVC 19.43.34808.0
+-- Detecting C compiler ABI info
+CMake Warning in C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-h19f8j/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-h19f8j/CMakeFiles/cmTC_441cb.dir/./
+
+  has 231 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CMakeCCompilerABI.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+CMake Warning in C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-q235ie/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-q235ie/CMakeFiles/cmTC_e8d62.dir/./
+
+  has 231 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CMakeCXXCompilerABI.cpp.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Could NOT find PkgConfig (missing: PKG_CONFIG_EXECUTABLE) 
+-- Looking for __GLIBC__
+CMake Warning in C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-80kkks/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-80kkks/CMakeFiles/cmTC_9ef1c.dir/./
+
+  has 231 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CheckSymbolExists.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Looking for __GLIBC__ - not found
+-- Performing Test CHECK_CPU_ARCHITECTURE_X86
+-- Performing Test CHECK_CPU_ARCHITECTURE_X86 - Failed
+-- Performing Test CHECK_CPU_ARCHITECTURE_X64
+-- Performing Test CHECK_CPU_ARCHITECTURE_X64 - Success
+-- Performing Test CHECK_CPU_ARCHITECTURE_ARM32
+-- Performing Test CHECK_CPU_ARCHITECTURE_ARM32 - Failed
+-- Performing Test CHECK_CPU_ARCHITECTURE_ARM64
+-- Performing Test CHECK_CPU_ARCHITECTURE_ARM64 - Failed
+-- Performing Test CHECK_CPU_ARCHITECTURE_LOONGARCH64
+-- Performing Test CHECK_CPU_ARCHITECTURE_LOONGARCH64 - Failed
+-- Looking for immintrin.h
+CMake Warning in C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-vxbl4g/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-vxbl4g/CMakeFiles/cmTC_d064e.dir/./
+
+  has 231 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CheckIncludeFile.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Looking for immintrin.h - found
+-- Looking for stdint.h
+CMake Warning in C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-1g7198/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-1g7198/CMakeFiles/cmTC_36829.dir/./
+
+  has 231 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CheckIncludeFile.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Looking for stdint.h - found
+-- Looking for M_PI
+CMake Warning in C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-9pw4na/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-9pw4na/CMakeFiles/cmTC_a1030.dir/./
+
+  has 231 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CheckSymbolExists.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Looking for M_PI - not found
+-- Performing Test HAVE_WIN32_CC
+-- Performing Test HAVE_WIN32_CC - Success
+-- Looking for d3d9.h
+CMake Warning in C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-36t1ep/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-36t1ep/CMakeFiles/cmTC_b357d.dir/./
+
+  has 231 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CheckIncludeFile.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Looking for d3d9.h - found
+-- Looking for d3d11_1.h
+CMake Warning in C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-qskmkd/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-qskmkd/CMakeFiles/cmTC_15feb.dir/./
+
+  has 231 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CheckIncludeFile.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Looking for d3d11_1.h - found
+-- Performing Test HAVE_D3D12_H
+-- Performing Test HAVE_D3D12_H - Success
+-- Looking for ddraw.h
+CMake Warning in C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-i906mo/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-i906mo/CMakeFiles/cmTC_c0d1a.dir/./
+
+  has 231 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CheckIncludeFile.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Looking for ddraw.h - found
+-- Looking for dsound.h
+CMake Warning in C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-bjf4jw/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-bjf4jw/CMakeFiles/cmTC_c81b6.dir/./
+
+  has 231 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CheckIncludeFile.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Looking for dsound.h - found
+-- Looking for dinput.h
+CMake Warning in C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-mwobxg/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-mwobxg/CMakeFiles/cmTC_fe83b.dir/./
+
+  has 231 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CheckIncludeFile.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Looking for dinput.h - found
+-- Looking for dxgi.h
+CMake Warning in C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-xw6nzm/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-xw6nzm/CMakeFiles/cmTC_65d4e.dir/./
+
+  has 231 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CheckIncludeFile.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Looking for dxgi.h - found
+-- Performing Test HAVE_XINPUT_H
+-- Performing Test HAVE_XINPUT_H - Success
+-- Performing Test HAVE_WINDOWS_GAMING_INPUT_H
+-- Performing Test HAVE_WINDOWS_GAMING_INPUT_H - Success
+-- Looking for tpcshrd.h
+CMake Warning in C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-1eh9a5/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-1eh9a5/CMakeFiles/cmTC_92b5a.dir/./
+
+  has 231 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CheckIncludeFile.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Looking for tpcshrd.h - found
+-- Looking for roapi.h
+CMake Warning in C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-l1foa8/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-l1foa8/CMakeFiles/cmTC_c7589.dir/./
+
+  has 231 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CheckIncludeFile.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Looking for roapi.h - found
+-- Looking for mmdeviceapi.h
+CMake Warning in C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-vd148l/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-vd148l/CMakeFiles/cmTC_31357.dir/./
+
+  has 231 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CheckIncludeFile.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Looking for mmdeviceapi.h - found
+-- Looking for audioclient.h
+CMake Warning in C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-cvuolz/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-cvuolz/CMakeFiles/cmTC_3ab27.dir/./
+
+  has 231 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CheckIncludeFile.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Looking for audioclient.h - found
+-- Looking for sensorsapi.h
+CMake Warning in C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-62egc2/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-62egc2/CMakeFiles/cmTC_d8878.dir/./
+
+  has 231 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CheckIncludeFile.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Looking for sensorsapi.h - found
+-- Looking for shellscalingapi.h
+CMake Warning in C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-ljnkay/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-ljnkay/CMakeFiles/cmTC_06fb5.dir/./
+
+  has 231 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CheckIncludeFile.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Looking for shellscalingapi.h - found
+-- 
+-- SDL2 was configured with the following options:
+-- 
+-- Platform: Windows-10.0.22631
+-- 64-bit:   TRUE
+-- Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/cl.exe
+-- Revision: SDL-2.30.10-no-vcs
+-- 
+-- Subsystems:
+--   Atomic:	ON
+--   Audio:	ON
+--   Video:	ON
+--   Render:	ON
+--   Events:	ON
+--   Joystick:	ON
+--   Haptic:	ON
+--   Hidapi:	ON
+--   Power:	ON
+--   Threads:	ON
+--   Timers:	ON
+--   File:	ON
+--   Loadso:	ON
+--   CPUinfo:	ON
+--   Filesystem:	ON
+--   Sensor:	ON
+--   Locale:	ON
+--   Misc:	ON
+-- 
+-- Options:
+--   SDL2_DISABLE_INSTALL        (Wanted: OFF): OFF
+--   SDL2_DISABLE_SDL2MAIN       (Wanted: OFF): OFF
+--   SDL2_DISABLE_UNINSTALL      (Wanted: OFF): OFF
+--   SDL_3DNOW                   (Wanted: OFF): OFF
+--   SDL_ALSA                    (Wanted: OFF): OFF
+--   SDL_ALSA_SHARED             (Wanted: OFF): OFF
+--   SDL_ALTIVEC                 (Wanted: ON): OFF
+--   SDL_ARMNEON                 (Wanted: OFF): OFF
+--   SDL_ARMSIMD                 (Wanted: OFF): OFF
+--   SDL_ARTS                    (Wanted: OFF): OFF
+--   SDL_ARTS_SHARED             (Wanted: OFF): OFF
+--   SDL_ASAN                    (Wanted: OFF): OFF
+--   SDL_ASSEMBLY                (Wanted: ON): OFF
+--   SDL_ASSERTIONS              (Wanted: auto): auto
+--   SDL_BACKGROUNDING_SIGNAL    (Wanted: OFF): OFF
+--   SDL_CCACHE                  (Wanted: ON): OFF
+--   SDL_CLOCK_GETTIME           (Wanted: OFF): OFF
+--   SDL_COCOA                   (Wanted: OFF): OFF
+--   SDL_DBUS                    (Wanted: OFF): OFF
+--   SDL_DIRECTFB                (Wanted: OFF): OFF
+--   SDL_DIRECTFB_SHARED         (Wanted: OFF): OFF
+--   SDL_DIRECTX                 (Wanted: ON): ON
+--   SDL_DISKAUDIO               (Wanted: ON): ON
+--   SDL_DUMMYAUDIO              (Wanted: ON): ON
+--   SDL_DUMMYVIDEO              (Wanted: ON): ON
+--   SDL_ESD                     (Wanted: OFF): OFF
+--   SDL_ESD_SHARED              (Wanted: OFF): OFF
+--   SDL_FOREGROUNDING_SIGNAL    (Wanted: OFF): OFF
+--   SDL_FUSIONSOUND             (Wanted: OFF): OFF
+--   SDL_FUSIONSOUND_SHARED      (Wanted: OFF): OFF
+--   SDL_GCC_ATOMICS             (Wanted: OFF): OFF
+--   SDL_HIDAPI                  (Wanted: ON): ON
+--   SDL_HIDAPI_JOYSTICK         (Wanted: ON): ON
+--   SDL_HIDAPI_LIBUSB           (Wanted: OFF): OFF
+--   SDL_IBUS                    (Wanted: OFF): OFF
+--   SDL_INSTALL_TESTS           (Wanted: OFF): OFF
+--   SDL_JACK                    (Wanted: OFF): OFF
+--   SDL_JACK_SHARED             (Wanted: OFF): OFF
+--   SDL_KMSDRM                  (Wanted: OFF): OFF
+--   SDL_KMSDRM_SHARED           (Wanted: OFF): OFF
+--   SDL_LASX                    (Wanted: OFF): OFF
+--   SDL_LIBC                    (Wanted: ON): ON
+--   SDL_LIBICONV                (Wanted: OFF): OFF
+--   SDL_LIBSAMPLERATE           (Wanted: OFF): OFF
+--   SDL_LIBSAMPLERATE_SHARED    (Wanted: OFF): OFF
+--   SDL_LIBUDEV                 (Wanted: ON): OFF
+--   SDL_LSX                     (Wanted: OFF): OFF
+--   SDL_METAL                   (Wanted: OFF): OFF
+--   SDL_MMX                     (Wanted: ON): OFF
+--   SDL_NAS                     (Wanted: OFF): OFF
+--   SDL_NAS_SHARED              (Wanted: OFF): OFF
+--   SDL_OFFSCREEN               (Wanted: ON): ON
+--   SDL_OPENGL                  (Wanted: ON): ON
+--   SDL_OPENGLES                (Wanted: ON): ON
+--   SDL_OSS                     (Wanted: OFF): OFF
+--   SDL_PIPEWIRE                (Wanted: OFF): OFF
+--   SDL_PIPEWIRE_SHARED         (Wanted: OFF): OFF
+--   SDL_PTHREADS                (Wanted: OFF): OFF
+--   SDL_PTHREADS_SEM            (Wanted: OFF): OFF
+--   SDL_PULSEAUDIO              (Wanted: OFF): OFF
+--   SDL_PULSEAUDIO_SHARED       (Wanted: OFF): OFF
+--   SDL_RENDER_D3D              (Wanted: ON): ON
+--   SDL_RENDER_METAL            (Wanted: OFF): OFF
+--   SDL_RPATH                   (Wanted: OFF): OFF
+--   SDL_RPI                     (Wanted: OFF): OFF
+--   SDL_SNDIO                   (Wanted: OFF): OFF
+--   SDL_SNDIO_SHARED            (Wanted: OFF): OFF
+--   SDL_SSE                     (Wanted: ON): ON
+--   SDL_SSE2                    (Wanted: ON): ON
+--   SDL_SSE3                    (Wanted: ON): ON
+--   SDL_SSEMATH                 (Wanted: ON): OFF
+--   SDL_STATIC_PIC              (Wanted: OFF): OFF
+--   SDL_SYSTEM_ICONV            (Wanted: OFF): OFF
+--   SDL_TESTS                   (Wanted: OFF): OFF
+--   SDL_VENDOR_INFO             (Wanted: ): OFF
+--   SDL_VIRTUAL_JOYSTICK        (Wanted: ON): ON
+--   SDL_VIVANTE                 (Wanted: OFF): OFF
+--   SDL_VULKAN                  (Wanted: OFF): OFF
+--   SDL_WASAPI                  (Wanted: ON): ON
+--   SDL_WAYLAND                 (Wanted: OFF): OFF
+--   SDL_WAYLAND_LIBDECOR        (Wanted: OFF): OFF
+--   SDL_WAYLAND_LIBDECOR_SHARED (Wanted: OFF): OFF
+--   SDL_WAYLAND_QT_TOUCH        (Wanted: OFF): OFF
+--   SDL_WAYLAND_SHARED          (Wanted: OFF): OFF
+--   SDL_X11                     (Wanted: OFF): OFF
+--   SDL_X11_SHARED              (Wanted: OFF): OFF
+--   SDL_X11_XCURSOR             (Wanted: OFF): OFF
+--   SDL_X11_XDBE                (Wanted: OFF): OFF
+--   SDL_X11_XFIXES              (Wanted: OFF): OFF
+--   SDL_X11_XINPUT              (Wanted: OFF): OFF
+--   SDL_X11_XRANDR              (Wanted: OFF): OFF
+--   SDL_X11_XSCRNSAVER          (Wanted: OFF): OFF
+--   SDL_X11_XSHAPE              (Wanted: OFF): OFF
+--   SDL_XINPUT                  (Wanted: ON): ON
+-- 
+--  CMAKE_C_FLAGS_DEBUG:   /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 
+--  CMAKE_CXX_FLAGS_DEBUG: /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 
+-- 
+--  CFLAGS:         /nologo /DWIN32 /D_WINDOWS /utf-8 /MP 
+--  EXTRA_CFLAGS:  
+--  EXTRA_LDFLAGS:  
+--  EXTRA_LIBS:    kernel32;user32;gdi32;winmm;imm32;ole32;oleaut32;version;uuid;advapi32;setupapi;shell32;dinput8
+-- 
+--  Build Shared Library: 1
+--  Build Static Library: 0
+-- 
+-- Configuring done (38.6s)
+-- Generating done (0.7s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    FETCHCONTENT_FULLY_DISCONNECTED
+    _VCPKG_ROOT_DIR
+
+
+-- Build files have been written to: C:/Users/musta/Downloads/cpsc2376-martinez-main/cpsc2376-martinez-main/practice/practice12/project12/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/x64-windows-dbg
