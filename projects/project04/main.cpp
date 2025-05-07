@@ -3,6 +3,9 @@
 #include "sudoku.h"
 #include <iostream>
 
+
+// I had trouble pushing my project on VS
+
 const int WINDOW_WIDTH = 540;
 const int WINDOW_HEIGHT = 540;
 const int CELL_SIZE = 60;
